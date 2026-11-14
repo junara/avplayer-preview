@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <plugin id="io.github.junara.avpreview" version="0.2.0" url="https://github.com/junara/avplayer-preview/releases/download/v0.2.0/avplayer-preview-0.2.0.zip">
+    <idea-version since-build="263" />
+    <name>AVPlayer Preview</name>
+    <vendor url="https://github.com/junara">junara</vendor>
+    <description>macOS (Apple Silicon only) local MP4/MOV preview using AVPlayer. No transcoding. Prototype: decoded-frame display capped at 1280px / 30fps.</description>
+    <change-notes>&lt;ul&gt;
+  &lt;li&gt;Initial release: preview local MP4 / M4V / MOV files in an editor tab with macOS AVPlayer, without transcoding.&lt;/li&gt;
+  &lt;li&gt;Apple Silicon (arm64) only. Intel Macs show an error instead of playing.&lt;/li&gt;
+  &lt;li&gt;Display frames are scaled to at most 1280 px on the long side at about 30 fps. HDR10 / HLG video is tone-mapped to SDR.&lt;/li&gt;
+  &lt;li&gt;Video info panel: container, codec, resolution, rotation, frame rate, bit depth, color, HDR type and audio format.&lt;/li&gt;
+&lt;/ul&gt;</change-notes>
+  </plugin>
+</plugins>

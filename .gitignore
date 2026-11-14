@@ -1,0 +1,60 @@
+# ===== ビルド成果物 (scripts/build.py / scripts/test_native.py が生成) =====
+/build/
+/dist/
+/out/
+
+# Java / Kotlin
+*.class
+*.jar
+*.log
+hs_err_pid*.log
+replay_pid*.log
+.kotlin/
+
+# Gradle (将来導入した場合に備えて)
+.gradle/
+.intellijPlatform/
+
+# ===== ネイティブ (Objective-C++ / JNI) =====
+*.o
+*.a
+*.dylib
+*.so
+*.dSYM/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# ===== テスト用メディア (テスト時に生成) =====
+*.mp4
+*.m4v
+*.mov
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== IDE (IntelliJ IDEA) =====
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== エディタ / OS =====
+.vscode/
+*.swp
+*~
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon?
+.Spotlight-V100
+.Trashes
+
+# ===== ローカル設定・秘密情報 =====
+.env
+.env.*
+*.local
